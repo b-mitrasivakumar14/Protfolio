@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mitra S | IT Student & Python Developer</title>
+  <meta name="description" content="Portfolio of Mitra S, B.Tech IT student focused on Python and cybersecurity.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#top" class="logo">Mitra S</a>
+    <nav aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>I write Python and learn how to keep systems safe.</h1>
+        <p>I'm Mitra, a second-year B.Tech IT student. I build small tools in Python and study cybersecurity through Coursera and Cisco training.</p>
+        <a class="btn" href="#projects">See my projects</a>
+      </div>
+
+      <div class="checker" aria-labelledby="checker-title">
+        <h2 id="checker-title">Try a password check</h2>
+        <p class="note">Runs in your browser. Nothing is sent or stored.</p>
+        <label for="pw">Type a password</label>
+        <input id="pw" type="text" autocomplete="off" spellcheck="false">
+        <div class="meter" aria-hidden="true"><span id="meter-bar"></span></div>
+        <p id="pw-result" role="status">Start typing to see a rating.</p>
+        <ul id="pw-tips"></ul>
+      </div>
+    </section>
+
+    <section id="about" class="block">
+      <h2>About me</h2>
+      <p>I'm studying Information Technology and spend most of my time in Python. I use MongoDB for storing data and I'm picking up Java fundamentals. I hold a Cisco certificate in basic cybersecurity and have completed several Coursera cybersecurity courses.</p>
+    </section>
+
+    <section id="skills" class="block">
+      <h2>Skills</h2>
+      <div id="skills-list" class="skill-groups"></div>
+    </section>
+
+    <section id="projects" class="block">
+      <h2>Projects</h2>
+      <div id="project-list" class="projects"></div>
+    </section>
+
+    <section id="certs" class="block">
+      <h2>Certifications and courses</h2>
+      <ul class="plain">
+        <li>Cisco: Basic Cybersecurity certification</li>
+        <li>Coursera: cybersecurity courses (add the course names)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="block">
+      <h2>Contact</h2>
+      <p>Open to internships and collaboration on small projects.</p>
+      <p class="links">
+        <a href="mailto:your.email@example.com">Email me</a>
+        <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Mitra S</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
